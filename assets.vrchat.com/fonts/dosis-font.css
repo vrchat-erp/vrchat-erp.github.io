@@ -1,0 +1,91 @@
+/* dosis-200 - latin */
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 200;
+    src: url('dosis/dosis-v25-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-200d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-200.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-regular - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: url('dosis/dosis-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-regulard41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-regular.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-300 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 300;
+    src: url('dosis/dosis-v25-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-300d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-300.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-500 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    src: url('dosis/dosis-v25-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-500d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-500.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-600 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    src: url('dosis/dosis-v25-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-600d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-600.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-800 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 800;
+    src: url('dosis/dosis-v25-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-800d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-800.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-700 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 700;
+    src: url('dosis/dosis-v25-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('dosis/dosis-v25-latin-700d41dd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dosis/dosis-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('dosis/dosis-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('dosis/dosis-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('dosis/dosis-v25-latin-700.svg#Dosis') format('svg'); /* Legacy iOS */
+  }

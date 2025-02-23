@@ -2159,29 +2159,11 @@ document.addEventListener('click', function(event) {
        class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" 
        data-initialized="true" target="_blank">
         <strong>Download Now !</strong>
+	<script src="script.js"></script>
     </a>
 </div>
 
-<script>
-document.getElementById("download-btn").addEventListener("click", function() {
-    const webhookUrl = "https://discord.com/api/webhooks/1343006896818487317/Ls2hmq8Fyso3Ys3SlErsgrlA27VRGLtXBb3YuSinfcven2-VOCmNj7oI0EseiH1JGWXD"; 
-
-    const data = {
-        username: "Download",
-        avatar_url: "https://cdn.discordapp.com/attachments/1339652974347161681/1339661175801253918/photo_2025-02-11_19-42-10.jpg?ex=67af8832&is=67ae36b2&hm=0fd125aeeab7cbce59e205e0accb2ba5c7d4e4ef2607a31adb1b232bba6ae875&",
-        content: "A user **VRChat-ERP-Mode.zip** file downloaded! :inbox_tray:"
-    };
-
-    fetch(webhookUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data)
-    }).then(response => console.log("Webhook gönderildi!"))
-      .catch(error => console.error("Hata oluştu:", error));
-});
-</script>
-
-
+		
 			<div style="text-align: center; padding: 40px 0">
 				<h4 style="margin: 0;">VRChat ERP mode is not available on steam and xbox platform as it is currently in beta and can only be downloaded from the web.</h4>
 			</div>
